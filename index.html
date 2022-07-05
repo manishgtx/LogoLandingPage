@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
@@ -169,16 +170,21 @@
           <h1>Have a Query?</h1>
           <h2>Request Free consultation</h2>
           <form action="">
-            <input type="text" name="" placeholder="Your Full Name" class="input-text" id="" />
-            <input type="text" class="input-text" placeholder="Email ID" />
-            <div class="flex">
+            <input type="text" name="" placeholder="Your Full Name" class="input-text margin-bottom" id="" />
+            <input type="text" class="input-text margin-bottom" placeholder="Email ID" />
+            <div class="flex margin-bottom">
               <select id="phone" name="phone" class="input-text myselect">
                 <option value="India" class="option">+91</option>
                 <option value="-">+92</option>
                 <option value="-">+94</option>
                 <option value="-">+95</option>
               </select>
-              <input type="tel" name="" id="" placeholder="Phone Number" class="input-text"/>
+              <input type="tel" name="" id="" placeholder="Phone Number" class="input-text validation-check"/>
+              <div class="phone-validation">
+                <i class="fa-solid fa-circle-check size mydisplay"></i>
+                <i class="fa-solid fa-circle-xmark wrong mydisplay"></i>
+              </div>
+              
             </div>
             <textarea name="" id="" placeholder="Requirements" cols="30" rows="4" class="input-text"></textarea>
             <div class="mycheckbox" >
@@ -243,5 +249,6 @@
       </div>
       
     </footer>
+    <script src="./app.js"></script>
   </body>
 </html>

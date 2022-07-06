@@ -587,3 +587,16 @@ hr {
 .border {
     border: 3px solid red;
 }
+
+.name-validation {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0,-50%);
+}
+.email-validation {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0,-50%);
+}
